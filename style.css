@@ -1,0 +1,99 @@
+
+/*------- nabar start------- */
+.navbar{
+    background-color: tomato;
+    margin: auto;
+    padding: 30px; 
+}
+.navbar ul li{
+     padding: 30px;
+     justify-content: space-evenly;
+     align-items: center;
+     display: inline;   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+li a:hover{
+    background-color: rgb(0, 30, 255);
+}
+li{
+    list-style-type: none;  
+}
+.me{
+   
+    font-size: 25px;
+    background-color: rgba(28, 29, 32, 1);
+    border-radius: 45px;
+    color: white;
+    padding: 10px;
+}
+.me a:hover{
+    color: yellow;  
+}
+/*------- navbar end------- */
+    
+/* ------hero section start---- */
+#hero span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+}
+#hero h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+#hero h3{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: rgba(102, 102, 102, 1);
+}
+#hero p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+}
+#hero .row{
+    background-color: ;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero  .link a{
+  display: inline-flex;
+  background-color: rgba(40, 233, 140, 1);
+  border-radius: 35px;
+  padding: 15px 30px;
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: var(--font-family) ;
+
+}
+#hero  .link a span{
+    color: black;
+    margin-left: 12px;
+    align-items: center;
+}
+#hero  .link a:hover{
+    background: transparent;
+    color: #353535;
+    outline: 1px solid #353535 ;
+}
+
+/* ------hero section End---- */
+
+<!-------- row start --------->
+
+
+
+
+<!-------- row END --------->
